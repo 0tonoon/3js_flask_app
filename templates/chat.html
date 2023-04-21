@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"  href="{{url_for('static', filename ='user.css')}}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' rel="stylesheet">
+
+</head>
+<body >
+    <div class="wrapper">
+        <section class = "chat-area">
+        <header>
+                
+                    <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>
+                   <img src="{{url_for('static', filename ='beauty.jpg')}}" alt="">
+                     <div class="details">
+                        <span>new user</span>
+                     <p>Active  now</p>
+                     </div>
+           
+        </header>
+        <div class="chat-box">
+            <div class="chat outgoing">
+              <div class="details">
+                  <p>Liima over there is here that is here and there </p>
+              </div>
+            </div> 
+            <div class="chat incoming">
+                <img src="{{url_for('static', filename ='beauty.jpg')}}" alt="">
+                <div class="details">
+                    <p>Liima over there is here that is here and there </p>
+                </div>
+              </div>  
+        </div>
+        <form action="#" class="typing-area">
+            <input type="text" placeholder="Type a message here...">
+            <button><i class="fab fa-telegram-plane"></i></button>
+        </form>
+    </section>
+</div>
+</body>
+
+</html>
